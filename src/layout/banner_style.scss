@@ -1,0 +1,50 @@
+/* banner_style.scss */
+.banner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #F2F2F2;
+    padding-inline: 5%;
+  }
+  
+  .banner-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    margin-right: 10px;
+  }
+  .banner-link:hover {
+    color: aliceblue;
+  }
+  
+  .banner-link.active {
+    color: aliceblue;
+    font-size: 25px;
+  }
+  
+  .nom {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: auto;
+    border-radius: 40px;
+    gap: 10px;
+    padding: 2px 19px;
+    background-color: floralwhite;
+    align-items: center;
+    color: black;
+  }
+  
+  .partiedroite {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .tel {
+    margin-left: auto;
+    display: flex;
+  }
+  

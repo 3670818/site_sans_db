@@ -1,0 +1,43 @@
+[
+    {
+      "type": "icon",
+      "icon": "fa-brands fa-html5",
+      "label": "HTML"
+    },
+    {
+      "type": "icon",
+      "icon": "fa-brands fa-js",
+      "label": "Javascript"
+    },
+    {
+      "type": "icon",
+      "icon": "fa-brands fa-node-js",
+      "label": "Node.js"
+    },
+    {
+      "type": "icon",
+      "icon": "fa-solid fa-file-code",
+      "label": "CSS"
+    },
+    {
+      "type": "icon",
+      "icon": "fa-solid fa-f",
+      "label": "Fortran"
+    },
+    {
+      "type": "image",
+      "image": "matlab",
+      "label": "MATLAB"
+    },
+    {
+      "type": "icon",
+      "icon": "fa-brands fa-node",
+      "label": "Node"
+    },
+    {
+      "type": "icon",
+      "icon": "fa-brands fa-envira",
+      "label": "mongoDB"
+    }
+  ]
+  

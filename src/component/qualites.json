@@ -1,0 +1,15 @@
+[
+    {
+      "icon": "fa-solid fa-palette",
+      "label": "Créatif"
+    },
+    {
+      "icon": "fa-solid fa-battery-full",
+      "label": "Autonome"
+    },
+    {
+      "icon": "fa-solid fa-question",
+      "label": "Curieux"
+    }
+  ]
+  

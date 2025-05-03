@@ -1,0 +1,44 @@
+
+.description__panel {
+    // margin-bottom: 1rem;
+    flex-basis: 50%;
+    overflow: hidden;
+    p {
+      margin-block: 0;
+    }
+    .description__header {
+      background-color: floralwhite;
+      color: black;
+      padding: 0.2em 1em;
+      border-radius: 0.7rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      i {
+        font-size: 2rem;
+        cursor: pointer;
+      }
+    }
+    .description__content {
+      background-color:wheat;
+      color: black;
+      padding: 1rem;
+      border-radius: 0.7rem;
+      position: relative;
+      top: -0.3rem;
+      z-index: -1;
+      transition: transform 0.3s ease-in-out;
+      &.hidden {
+        max-height: 0; /* Cache le contenu en limitant sa hauteur */
+        overflow: hidden; /* Empêche le débordement du contenu */
+        transition: max-height 0.3s ease; /* Animation fluide pour l'ouverture et la fermeture */
+        transform: translateY(-100%);
+        border-radius: 0.7rem;
+      }
+      &.visible {
+        transform: translateY(0);
+      }
+    }
+  }
+
